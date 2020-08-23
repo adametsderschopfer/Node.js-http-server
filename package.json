@@ -1,0 +1,13 @@
+{
+  "name": "http-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "start:server:dev": "nodemon ./build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
