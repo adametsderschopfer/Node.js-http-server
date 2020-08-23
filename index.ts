@@ -23,7 +23,7 @@ if (cluster.isMaster) {
 
       app
         .get("/", ({ req, res }: Context) => {
-          res.end(req.url);
+          res.end(req.url); 
         })
         .get("/about", ({ req, res }: Context) => {
           res.end("about");
